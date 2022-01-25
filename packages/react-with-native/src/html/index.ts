@@ -22,6 +22,9 @@ import { IType } from "./i/I.type";
 import { FormType } from "./form/Form.type";
 import { TextAreaType } from "./textarea/TextArea.type";
 import { AsideType } from "./Aside/Aside.type";
+import { RadioType } from "./radio/Radio.type";
+
+// components
 import Div from "./div/Div";
 import A from "./a/A";
 import H2 from "./h2/H2";
@@ -41,6 +44,7 @@ import TextArea from "./textarea/TextArea";
 import Aside from "./aside/Aside";
 import I from "./i/I";
 import Image from "./image/Image";
+import Radio from "./radio/Radio";
 
 export {
   Div,
@@ -63,6 +67,7 @@ export {
   TextArea,
   Aside,
   Nav,
+  Radio,
 };
 
 export type {
@@ -86,4 +91,5 @@ export type {
   TextAreaType,
   AsideType,
   NavType,
+  RadioType,
 };

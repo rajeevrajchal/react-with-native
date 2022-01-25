@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Div, Text, CodeBlock } from "react-with-native";
+import { Div, Text } from "react-with-native";
 
 const Template = ({
   component,
@@ -21,7 +21,7 @@ const Template = ({
         {component}
       </Div>
       <Text className="p-4 text-2xl text-gray-600">Instalation</Text>
-      <Div className="flex p-4 mx-4">
+      {/* <Div className="flex p-4 mx-4">
         <CodeBlock code={instalation} language={"tsx"} />
       </Div>
       <Text className="p-4 text-2xl text-gray-600">Imports</Text>
@@ -31,7 +31,7 @@ const Template = ({
       <Text className="p-4 text-2xl text-gray-600">Usage</Text>
       <Div className="flex p-4 mx-4">
         <CodeBlock code={usage} language={"tsx"} />
-      </Div>
+      </Div> */}
     </Div>
   );
 };
