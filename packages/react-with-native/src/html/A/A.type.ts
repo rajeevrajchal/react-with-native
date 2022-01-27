@@ -7,3 +7,4 @@ export type AType = DetailedHTMLProps<
 > & {
   native?: TextProps;
 };
+

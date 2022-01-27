@@ -1,3 +1,7 @@
+import { H1Type } from "./h1/H1.type";
+import { H6Type } from "./h6/H6.type";
+import { H5Type } from "./h5/H5.type";
+import { H3Type } from "./h3/H3.type";
 // components
 import Nav from "./nav/Nav";
 
@@ -45,11 +49,28 @@ import Aside from "./aside/Aside";
 import I from "./i/I";
 import Image from "./image/Image";
 import Radio from "./radio/Radio";
+import Col from "./col/Col";
+import B from "./b/B";
+import Hr from "./hr/Hr";
+import H1 from "./h1/H1";
+import H3 from "./h3/H3";
+import H4 from "./h4/H4";
+import H5 from "./h5/H5";
+import H6 from "./h6/H6";
+import { H4Type } from "./h4/H4.type";
+import { ColType } from "./col/Col.type";
+import { BType } from "./b/B.type";
+import { HrType } from "./hr/Hr.type";
 
 export {
   Div,
   A,
+  H1,
   H2,
+  H3,
+  H4,
+  H5,
+  H6,
   Strong,
   Image,
   Button,
@@ -68,12 +89,20 @@ export {
   Aside,
   Nav,
   Radio,
+  Col,
+  B,
+  Hr,
 };
 
 export type {
   DivType,
   AType,
+  H1Type,
   H2Type,
+  H3Type,
+  H4Type,
+  H5Type,
+  H6Type,
   StrongType,
   ImageType,
   ButtonType,
@@ -92,4 +121,7 @@ export type {
   AsideType,
   NavType,
   RadioType,
+  ColType,
+  BType,
+  HrType,
 };
